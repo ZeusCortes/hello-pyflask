@@ -18,3 +18,7 @@ Scaffold
    5. touch myLib/__init__.py 
    6. touch myLib/logic.py 
    7. touch main.py
+3. Setup Makefile and requirements.txt
+   1. make install
+   2. pip freeze | less
+      1. This is for getting the current version of the packages
